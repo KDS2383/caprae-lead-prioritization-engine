@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caprae Lead Prioritization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Lead Scoring & Prioritization Tool</h1>
+            <p>Enter your criteria to find and rank high-value leads automatically.</p>
+        </header>
+
+        <form id="search-form">
+            <input type="text" id="industry" placeholder="Enter Industry (e.g., SaaS)" required>
+            <input type="text" id="location" placeholder="Enter Location (e.g., Chicago)" required>
+            <button type="submit">Find & Prioritize Leads</button>
+        </form>
+
+        <div class="loader-container" id="loader" style="display: none;">
+            <div class="loader"></div>
+            <p>Analyzing and scoring leads...</p>
+        </div>
+
+        <div class="results-container">
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Rank Score</th>
+                        <th>Company Name</th>
+                        <th>URL</th> <!-- NEW COLUMN -->
+                        <th>Revenue (M)</th>
+                        <th>Employees</th>
+                        <th>BBB Rating</th>
+                    </tr>
+                </thead>
+                <tbody id="results-body">
+                    <!-- Results will be injected here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
