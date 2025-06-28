@@ -10,8 +10,7 @@ This solution directly addresses the core challenge of moving beyond simple data
 
 ### Live Demo
 
-
-*(**Action Item:** Replace the URL above with a link to a GIF of your app working. You can upload your GIF to a site like [Click on GIF for website]([https://imgur.com/upload](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3g5cDAzZTU1bzBtNTRkbXR6dmU0cWh4c2E3cG1jNmMzeXlhZXR6ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PO7ITbLLgHgPhWa8tb/giphy.gif)) to get a direct link.)*
+https://caprae-lead-ranker.onrender.com
 
 ---
 
