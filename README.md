@@ -55,5 +55,5 @@ Follow these steps to run the project locally.
 
 #### 2. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/KDS2383/caprae-lead-prioritization-engine.git
+cd caprae-lead-prioritization-engine
